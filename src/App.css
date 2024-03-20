@@ -1,13 +1,59 @@
 .box {
-  width: 700px;
-  height: 700px;
+  width: 650px;
+  height: 650px;
   border: 1px solid black;
+  border-radius: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.gameName {
+  width: 500px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  margin: 20px auto;
+  padding: 10px 0;
+  border-radius: 50px;
+  background-color: rgb(72, 118, 255);
+  color: white;
 }
 .imgSize {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
 }
 .main {
   display: flex;
   justify-content: center;
+}
+.textSize {
+  font-size: 40px;
+}
+.rspButton {
+  width: 90px;
+  height: 50px;
+  margin: 0 30px;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(72, 118, 255);
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.👑WIN👑 {
+  border: 3px solid rgb(72, 118, 255);
+  color: white;
+  background-color: rgb(72, 118, 255);
+}
+.😭LOSE😭 {
+  border: 3px solid rgba(128, 128, 128, 0.304);
+  color: gray;
+  background-color: rgba(128, 128, 128, 0.304);
+}
+.😏TIE😏 {
+  border: 3px solid black;
+  color: black;
 }
