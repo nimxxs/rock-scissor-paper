@@ -59,13 +59,15 @@ function App() {
   const randomChoice = () => {
     let itemArray = Object.keys(choice); // Object.keys 는 객체의 키 값만 뽑아서 array로 만들어주는 함수임.
     let randomItem = Math.floor(Math.random()*itemArray.length); // 랜덤 숫자 만들기
-    let final = itemArray[randomItem] ;
+    let final = itemArray[randomItem];
+    console.log("randomChoice 반환값", choice[final])
     return choice[final];
   }
 
   return (
     <div>
-      <div className='gameName'>가위바위보 게임!</div>
+      <div className='gameName'>GAME</div>
+      <div className='gameName2'>START</div>
       <div className="main">
         <Box title="YOU" item={userSelect} result={result}/>
         <Box title="COMPUTER" item={computerSelect} result={result}/>
@@ -80,3 +82,4 @@ function App() {
 }
 
 export default App;
+;

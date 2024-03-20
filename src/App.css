@@ -1,24 +1,39 @@
+body {
+  background-image: url(../public/img/vs.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 .box {
-  width: 650px;
-  height: 650px;
-  border: 1px solid black;
+  width: 600px;
+  height: 600px;
   border-radius: 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 30px;
+  margin: -30px 160px 30px 160px;
 }
 .gameName {
-  width: 500px;
+  width: 400px;
   text-align: center;
   font-size: 50px;
   font-weight: 700;
-  margin: 20px auto;
-  padding: 10px 0;
-  border-radius: 50px;
-  background-color: rgb(72, 118, 255);
+  margin: 40px auto 10px auto;
+  color: rgb(255, 208, 0);
+  background-color: white;
+}
+.gameName2 {
+  width: 400px;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 700;
+  margin: 0 auto;
   color: white;
+  background-color: rgb(255, 208, 0);
+  position: relative;
+  left: 100px;
 }
 .imgSize {
   width: 400px;
@@ -32,28 +47,34 @@
   font-size: 40px;
 }
 .rspButton {
-  width: 90px;
-  height: 50px;
+  width: 150px;
+  height: 60px;
   margin: 0 30px;
   border: none;
   border-radius: 50px;
-  background-color: rgb(72, 118, 255);
+  background-color: rgb(255, 208, 0);
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
+  cursor: pointer;
+}
+.rspButton:hover {
+  background-color: white;
+  border: 1px solid rgb(255, 208, 0);
+  color: rgb(255, 208, 0);
 }
 
 .👑WIN👑 {
-  border: 3px solid rgb(72, 118, 255);
-  color: white;
-  background-color: rgb(72, 118, 255);
+  border: none;
+  color: rgb(255, 208, 0);
+  background-color: white;
 }
 .😭LOSE😭 {
-  border: 3px solid rgba(128, 128, 128, 0.304);
+  border: none;
   color: gray;
-  background-color: rgba(128, 128, 128, 0.304);
+  background-color: rgba(128, 128, 128, 0.437);
 }
 .😏TIE😏 {
-  border: 3px solid black;
+  border: none;
   color: black;
 }
